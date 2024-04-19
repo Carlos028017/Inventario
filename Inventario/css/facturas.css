@@ -1,0 +1,80 @@
+body {
+    background-image: url('../imagen/saikel.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  header img {
+    width: 180px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover; 
+    margin-right: 10px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+  }
+
+main {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid#ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+section.resumen p {
+    margin: 5px 0;
+}
+
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cliente-info {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cliente-info h2 {
+    margin-bottom: 10px;
+}
+
+.cliente-info p {
+    margin-bottom: 5px;
+}

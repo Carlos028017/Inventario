@@ -1,0 +1,74 @@
+body{
+    background-color: gray;
+}
+
+.container-fluid{
+    font-size: 20px;
+}
+
+.full-width{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+.list-unstyle{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+.tile{
+    background-color: white;
+	border: 1px solid white;
+	width: 22%;
+	margin: 0 1%;
+	position: relative;
+	transition: all .3s ease-in-out;
+	overflow: hidden;
+	cursor: pointer;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.text-condensedLight small{
+    color: black;
+    font-size: 30px;
+}
+
+.tile:hover .tile-text span{ color: #3F51B5; }
+.tile:hover .tile-icon{
+	color: rgba(0,191,238,.3);
+	transform: scale(1.5) translate(-10px, -10px);
+}
+.tile-text{
+	display: block;
+	height: 140px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.tile-text span,
+.tile-icon{
+	position: absolute;
+	color: rgba(0,0,0,.3);
+	transition: all .3s ease-in-out;
+	/* -moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none; */
+}
+.tile-text span{
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+	display: block;
+	font-size: 27px;
+	z-index: 2;
+}
+.tile-icon{
+	bottom: 9px;
+	right: 4px;
+	font-size: 90px;
+	line-height: 67px;
+	z-index: 1;
+}

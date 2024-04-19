@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../imagen/saikel.jpg");
+    color: white !important;
+    font-family: Arial, sans-serif;
+}
+
+.log {
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.cabeza{
+    vertical-align: inherit; 
+    font-size: 24px;
+}
+
+b{
+    color: black;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fila {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.txt_field {
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+.txt_field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.txt_field input,
+.txt_field select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.pass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.boton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.boton:hover {
+    background-color: #45a049;
+}
